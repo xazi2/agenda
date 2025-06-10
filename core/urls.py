@@ -1,6 +1,5 @@
 from django.urls import path
 
-from isa_agenda_telefonica.urls import urlpatterns
 from . import views
 
 urlpatterns = [
