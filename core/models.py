@@ -8,4 +8,5 @@ class Contato(models.Model):
     telefone = models.IntegerField()
     email = models.EmailField(blank=True)
     descricao = models.TextField(max_length=255)
+    imagem = models.ImageField(upload_to='core_imagens/%Y/%m', blank= True, null=True)
 # Create your models here.
